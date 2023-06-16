@@ -4,15 +4,15 @@ const Footer = () => {
   return (
     <div>
        {/* <!-- ======= Footer ======= --> */}
-       <footer id="footer" class="footer">
-        <div class="copyright">
+       <footer id="footer" className="footer">
+        <div className="copyright">
           &copy; Copyright
           <strong>
             <span>MediTech</span>
           </strong>
           . All Rights Reserved
         </div>
-        <div class="credits">
+        <div className="credits">
           Designed by <a href="http:localhost://3000/">MediTech</a>
         </div>
       </footer>

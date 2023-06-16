@@ -15,8 +15,8 @@ import Lab from "./pages/Lab";
 import Blog from "./pages/Blog";
 import Profile from "./pages/Profile";
 import Logout from "./auth/Logout";
-// import Login from './auth/Login';
-// import Register from './auth/Register';
+import Login from './auth/Login';
+import Register from './auth/Register';
 
 function App() {
   useEffect(() => {
@@ -29,9 +29,9 @@ function App() {
       <Link
         id="scrollBtn"
         href="/"
-        class="back-to-top d-flex align-items-center justify-content-center"
+        className="back-to-top d-flex align-items-center justify-content-center"
       >
-        <i class="bi bi-arrow-up-short"></i>
+        <i className="bi bi-arrow-up-short"></i>
       </Link>
 
       <div id="preloader"></div>
@@ -39,8 +39,6 @@ function App() {
       <Header />
       <Sidebar />
       <Routes>
-        {/* <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} /> */}
         <Route path="/" element={<Dashboard />} />
         <Route path="/appointment" element={<Appointment />} />
         <Route path="/patient" element={<Patient />} />
@@ -50,6 +48,8 @@ function App() {
         <Route path="/lab" element={<Lab />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/logout" element={<Logout />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
