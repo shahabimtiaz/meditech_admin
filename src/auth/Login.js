@@ -88,7 +88,7 @@ const Login = () => {
                         </div>
                         <div class="col-12">
                           <p class="small mb-0">
-                            Don't have account?
+                            Don't have account?&nbsp;
                             <Link to="/register">Create an account</Link>
                           </p>
                         </div>
@@ -97,7 +97,7 @@ const Login = () => {
                   </div>
 
                   <div class="credits">
-                    Designed by
+                    Designed by&nbsp;
                     <a href="/">MediTech</a>
                   </div>
                 </div>

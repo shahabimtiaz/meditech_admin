@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 const Medicine = () => {
   return (
     <div>
-         <main id="main" class="main">
-        <div class="pagetitle">
+         <main id="main" className="main">
+        <div className="pagetitle">
           <h1>Medicine</h1>
           <nav>
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item">
+            <ol className="breadcrumb">
+              <li className="breadcrumb-item">
                 <Link to="/">Home</Link>
               </li>
-              <li class="breadcrumb-item active">Medicine</li>
+              <li className="breadcrumb-item active">Medicine</li>
             </ol>
           </nav>
         </div>
